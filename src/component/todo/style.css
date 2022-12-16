@@ -1,0 +1,100 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container-judul h3{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #032954;
+    margin-bottom: 1rem;   
+}
+.container-card{
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+    justify-content: center;
+}
+.card{
+    border-radius: 8px;
+    box-shadow: 1.0463px 6.27781px 12.3891px rgb(0 0 0 / 15%);
+    border: 2px solid #f0f0f0;
+    width: 344px;
+    min-width: 252px;
+}
+.content-card-detail{
+    box-shadow: 1.0463px 6.27781px 12.3891px rgb(0 0 0 / 15%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #032954;
+    padding: 10px;
+}
+.content-card{
+    padding: 16px;
+    padding-top: 0px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+.container-card h1{
+    font-size: 24px;
+    font-weight: 600;
+    color: #032954;
+    padding-bottom: 0rem;
+    padding: 10px 0px 10px 0px;
+}
+.container-card p{
+    font-size: 14px;
+    line-height: 140%;
+    padding-bottom: 3px;
+    padding: 10px 0px 10px 0px;
+}
+.card-title{
+    background: teal;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px 5px 0px 0px;
+}
+.btn {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+.info {
+    border-color: #2196F3;
+    color: #2196F3;
+}
+  
+.info:hover {
+    background: #2196F3;
+    color: white;
+}
+.success{
+    margin-top: 1rem;
+    border-color: teal;
+    color: teal;
+}
+.success:hover {
+    background: teal;
+    color: white;
+}

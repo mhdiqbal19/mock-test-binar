@@ -2,6 +2,7 @@ import { CircularProgress } from '@mui/material';
 import axios from 'axios'
 import React from 'react'
 import { useEffect, useState } from 'react'
+import Navbar from '../navbar/Navbar';
 import TodoCard from './TodoCard';
 
 
@@ -20,17 +21,16 @@ const Todos = () => {
 
     return (
         <>
-        {todos ? 
-            (
-            <div style={{ 
-                display: "flex",
-                flexWrap: "wrap",                    
-            }}>
-                {todos.slice(0, 12).map(todo => <TodoCard todo={todo}/> )}
+        <Navbar/>
+            <div className='container'>
+                {todos ? 
+                (                 
+                <div className='container-card'>
+                    {todos.slice(0, 12).map(todo => <TodoCard todo={todo}/> )}
+                </div>
+                )
+                : <CircularProgress/>}
             </div>
-            )
-            : <CircularProgress/>}
-        
         </>
     )
 }
