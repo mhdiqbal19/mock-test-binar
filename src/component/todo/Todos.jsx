@@ -26,7 +26,7 @@ const Todos = () => {
                 {todos ? 
                 (                 
                 <div className='container-card'>
-                    {todos.slice(0, 12).map(todo => <TodoCard todo={todo}/> )}
+                    {todos.slice(0, 9).map(todo => <TodoCard todo={todo}/> )}
                 </div>
                 )
                 : <CircularProgress/>}

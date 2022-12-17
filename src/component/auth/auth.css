@@ -1,0 +1,29 @@
+.card-auth {
+    margin-top: 3rem;
+    width: 450px;
+    box-shadow: 1.0463px 6.27781px 12.3891px rgb(0 0 0 / 15%);
+}
+.card-title{
+    background: teal;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+}
+.content-card-auth{
+    padding: 20px;
+}
+label{
+    color: teal;
+}
+input[type=number] {
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid teal;
+    border-radius: 4px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: teal;
+  }
